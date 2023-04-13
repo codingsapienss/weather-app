@@ -1,5 +1,5 @@
 # weather-app
-live-demo : 
+live-demo : https://imprsant-weather.netlify.app/
 
 This is a simple weather app project created with the help of javascript, html and css. 
 This project uses openweathermap API to fetch the weather data with the help of fetch api.
