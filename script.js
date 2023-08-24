@@ -80,8 +80,8 @@ function getWeatherData() {
                 <img src="https://openweathermap.org/img/wn/${d.weather[0].icon}@4x.png" alt="weather-icon" class="w-icon">
                 <div class="other">
                         <div class="day">${window.moment(d.dt * 1000).format('ddd')}</div>
-                        <div class="temp">Day -  ${d.temp.day} &#176; C </div>
-                        <div class="temp">Night- ${d.temp.night} &#176; C </div>
+                        <div class="temp">Day :  ${d.temp.day} &#176; C </div>
+                        <div class="temp">Night : ${d.temp.night} &#176; C </div>
                     </div>
                 `
             } else {
@@ -89,8 +89,8 @@ function getWeatherData() {
                 <div class="weather-forecast-item">
                     <div class="day">${window.moment(d.dt * 1000).format('ddd')}</div>
                     <img src="https://openweathermap.org/img/wn/${d.weather[0].icon}@2x.png" alt="weather-icon" class="w-icon">
-                    <div class="temp">Day-  ${d.temp.day} &#176; C </div>
-                    <div class="temp">Night - ${d.temp.night} &#176; C </div>
+                    <div class="temp">Day :  ${d.temp.day} &#176; C </div>
+                    <div class="temp">Night : ${d.temp.night} &#176; C </div>
                 </div>
                 `
             }
