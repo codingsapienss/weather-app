@@ -148,7 +148,7 @@ body {
 @media screen and (max-width: 750px) {
   .container {
     margin: auto;
-    max-width: 80vw;
+    max-width: 90vw;
     width: 300px;
     padding: 30px 0;
   }
@@ -157,6 +157,20 @@ body {
     flex-direction: column;
     justify-content: space-between;
     flex-wrap: wrap;
+  }
+
+  .others {
+    max-width: 90vw;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    padding: 1.5rem;
+    border: 1px solid black;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 0.8rem;
+    margin: 0;
+    margin-top: 20px;
   }
 
   img {
@@ -183,6 +197,6 @@ body {
 
   .timezone {
     font-size: 1.5rem;
-    font-weight: 100;
+    margin-top: 30px;
   }
 }
